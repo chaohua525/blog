@@ -1,105 +1,108 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>猫小妹博客 | 猫哥博客</title>
-<meta name="description" content="温故而知新">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://chaohua525.github.io/blog//favicon.ico?v=1593519669520">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://chaohua525.github.io/blog//favicon.ico?v=1593520069784">
 <link rel="stylesheet" href="https://chaohua525.github.io/blog//styles/main.css">
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
+    <meta name="description" content="由于近期服务器，被人远程所以现在猫哥很生气，很火大
+在 大海深处，居住着海国国王一家。海王有六个聪明的女儿，最小的公主长最之漂亮
+小公主很向往人类世界，她的老祖母经常把自己所知道的关于人类的知识讲给她听。 而且，老祖母说 等她到了十五岁，就..." />
+    <meta name="keywords" content="Gridea" />
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://chaohua525.github.io/blog/">
-        <img class="avatar" src="https://chaohua525.github.io/blog//images/avatar.png?v=1593519669520" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://chaohua525.github.io/blog/">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://chaohua525.github.io/blog/">
+        <img src="https://chaohua525.github.io/blog//images/avatar.png?v=1593520069784" class="site-logo">
         <h1 class="site-title">猫哥博客</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav">
             首页
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             归档
           </a>
         
       
         
-          <a href="/tags" class="menu purple-link">
+          <a href="/tags" class="site-nav">
             标签
           </a>
         
       
         
-          <a href="/post/about" class="menu purple-link">
+          <a href="/post/about" class="site-nav">
             关于
           </a>
         
       
     </div>
   </div>
-</transition>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      		 	<div style="width:300px;margin:0 auto; padding:20px 0;">
+		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32131102000609" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">苏公网安备 32131102000609号</p></a>
+		 	</div>
+		 | <a class="rss" href="https://chaohua525.github.io/blog//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
 
-      <div class="content-container">
-        <div class="post-detail">
-          
-            <div class="feature-container" style="background-image: url('https://chaohua525.github.io/blog//post-images/hello-gridea.png')">
-            </div>
-          
-          <h2 class="post-title">猫小妹博客</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2018-12-12</span>
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">猫小妹博客</h2>
+            <div class="post-date">2018-12-12</div>
             
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://chaohua525.github.io/blog/tag/KIL58-8TE/">
-                    Gridea
-                    
-                  </a>
-                
-              </span>
+              <div class="feature-container" style="background-image: url('https://chaohua525.github.io/blog//post-images/hello-gridea.png')">
+              </div>
             
-          </div>
-          <div class="post-content">
-            <p>由于近期服务器，被人远程所以现在猫哥很生气，很火大</p>
+            <div class="post-content" v-pre>
+              <p>由于近期服务器，被人远程所以现在猫哥很生气，很火大</p>
 <p>在 大海深处，居住着海国国王一家。海王有六个聪明的女儿，最小的公主长最之漂亮<br>
 小公主很向往人类世界，她的老祖母经常把自己所知道的关于人类的知识讲给她听。 而且，老祖母说 等她到了十五岁，就可以游到海面上去看看人类世界。终于，小公主过了十五岁生日。当她把头探出海面时，看到海上停着一艘大船。<br>
 船上有一个英俊的王子，今天是他的生日，所有人都在为他庆祝。突如其来的暴风雨打翻了大船，小公主费了很大的力气把沉入海里的王子救上岸。当清晨来临时，有个女孩走过来了。小公主连忙躲在礁石后面。这时，王子醒过来了，他冲着那个漂亮的女孩微笑感谢女孩救了他。<br>
@@ -128,40 +131,30 @@
 <p>尽情发挥你的才华吧！</p>
 <p>😘 Enjoy~</p>
 
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://chaohua525.github.io/blog/tag/KIL58-8TE/" class="tag">
+                    Gridea
+                  </a>
+                
+              </div>
+            
+            
+
+            
+
           </div>
+
         </div>
-
-        
       </div>
-
-      
-
-      <div class="site-footer">
-  <div class="slogan">温故而知新</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  		 	<div style="width:300px;margin:0 auto; padding:20px 0;">
-		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32131102000609" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">苏公网安备 32131102000609号</p></a>
-		 	</div>
-		 | <a class="rss" href="https://chaohua525.github.io/blog//atom.xml" target="_blank">RSS</a>
-</div>
-
-
     </div>
-    <script type="application/javascript">
 
-hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -171,6 +164,8 @@ var app = new Vue({
 })
 
 </script>
+
+
 
 
 
