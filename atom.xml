@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chaohua525.github.io/blog/</id>
-    <title>Gridea</title>
-    <updated>2020-06-30T05:48:48.708Z</updated>
+    <title>猫哥博客</title>
+    <updated>2020-06-30T11:43:12.840Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chaohua525.github.io/blog/"/>
     <link rel="self" href="https://chaohua525.github.io/blog/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://chaohua525.github.io/blog/images/avatar.png</logo>
     <icon>https://chaohua525.github.io/blog/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, 猫哥博客</rights>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <title type="html"><![CDATA[猫小妹博客]]></title>
         <id>https://chaohua525.github.io/blog/post/hello-gridea/</id>
         <link href="https://chaohua525.github.io/blog/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+        <content type="html"><![CDATA[<p>由于近期服务器，被人远程所以现在猫哥很生气，很火大</p>
+<p>在 大海深处，居住着海国国王一家。海王有六个聪明的女儿，最小的公主长最之漂亮<br>
+小公主很向往人类世界，她的老祖母经常把自己所知道的关于人类的知识讲给她听。 而且，老祖母说 等她到了十五岁，就可以游到海面上去看看人类世界。终于，小公主过了十五岁生日。当她把头探出海面时，看到海上停着一艘大船。<br>
+船上有一个英俊的王子，今天是他的生日，所有人都在为他庆祝。突如其来的暴风雨打翻了大船，小公主费了很大的力气把沉入海里的王子救上岸。当清晨来临时，有个女孩走过来了。小公主连忙躲在礁石后面。这时，王子醒过来了，他冲着那个漂亮的女孩微笑感谢女孩救了他。<br>
+无法忘记王子的小公主默默地回到海底，他去找巫婆，求她把自己变成人。<br>
+巫婆夺走了她美丽的声音，并告诉她:王子一旦和别人结婚，她就会变成海上的泡沫。<br>
+小公主终于有了一双漂亮的腿，但每走一步都像踩在刀尖上一样痛。王子发现了她，领她到到皇宫里。既不能唱歌也不能讲话的她却能跳出最轻盈的舞蹈。<br>
+王子结婚那天，小公主尽情的跳舞，因为当第一道光出现是，她将会化为泡沫。那天，小公主的姐姐们交给他一把刀，并告诉她只要用力刺死王子，她就能回到海底。<br>
+可小公主不忍心，她把刀扔到大海里，自己也跳入了大海。小公主慢慢地化成了泡沫，升上了天空，一直升到精灵的世界去了。</p>
+<p>&lt;   !-- more --y&gt;</p>
+<p><a href="httpsu://github.com/getgridea/gridea">Github</a><br>
 <a href="https://gridea.dev/">Gridea 主页</a><br>
 <a href="http://fehey.com/">示例网站</a></p>
 <h2 id="特性">特性👇</h2>
