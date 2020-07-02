@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chaohua525.github.io/blog/</id>
     <title>猫哥博客</title>
-    <updated>2020-07-02T15:58:45.825Z</updated>
+    <updated>2020-07-02T17:07:27.028Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chaohua525.github.io/blog/"/>
     <link rel="self" href="https://chaohua525.github.io/blog/atom.xml"/>
@@ -11,137 +11,13 @@
     <icon>https://chaohua525.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2020, 猫哥博客</rights>
     <entry>
-        <title type="html"><![CDATA[关于猫哥离职的一些事情]]></title>
-        <id>https://chaohua525.github.io/blog/post/guan-yu-mao-ge-chi-zhi-de-yi-xie-shi-qing/</id>
-        <link href="https://chaohua525.github.io/blog/post/guan-yu-mao-ge-chi-zhi-de-yi-xie-shi-qing/">
+        <title type="html"><![CDATA[晚安，世界]]></title>
+        <id>https://chaohua525.github.io/blog/post/wan-an-shi-jie/</id>
+        <link href="https://chaohua525.github.io/blog/post/wan-an-shi-jie/">
         </link>
-        <updated>2020-07-02T07:08:29.000Z</updated>
-        <content type="html"><![CDATA[<p>由于猫哥打字不过关，还有就是流程记不住，所以这次打算报复一下公司，具体怎么报复，请加入TG群我们一起交流一下@miaoxiaom0852</p>
- <style>
-html,body{
-
-    margin: 0;
-    padding: 0;
-}
-/*满天星*/
-audio{
-    z-index: 5;
-    position: absolute;
-    bottom: 0;
-    opacity: 0.1;
-    -webkit-transition: all 2s;
-    -moz-transition: all 2s;
-    -ms-transition: all 2s;
-    -o-transition: all 2s;
-    transition: all 2s;
-}
-audio:hover{
-    opacity: 1;
-}
-.wall{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-div#background{
-    background: url("../img/preview.jpg")no-repeat;
-    -webkit-animation: dd 100s linear infinite;
-    -moz-animation: dd 100s linear infinite;
-    -o-animation: dd 100s linear infinite;
-    animation: dd 100s linear infinite;
-    background-size: cover;
-}
-div#midground{
-    background: url("../img/midground.png");
-    z-index: 1;
-    -webkit-animation: cc 100s linear infinite;
-    -moz-animation: cc 100s linear infinite;
-    -o-animation: cc 100s linear infinite;
-    animation: cc 100s linear infinite;
-}
-div#foreground{
-    background: url("../img/foreground.png");
-    z-index: 2;
-    -webkit-animation: cc 153s linear infinite;
-    -o-animation: cc 153s linear infinite;
-    -moz-animation: cc 153s linear infinite;
-    animation: cc 153s linear infinite;
-}
-div#top{
-    background: url("../img/midground.png");
-    z-index: 4;
-    -webkit-animation: dd 100s linear infinite;
-    -o-animation: dd 100s linear infinite;
-    animation: da 100s linear infinite;
-}
-@-webkit-keyframes cc {
-    from{
-        background-position: 0 0;
-        transform: translateY(10px);
-    }
-    to{
-        background-position: 600% 0;
-    }
-}
-@-o-keyframes cc {
-    from{
-        background-position: 0 0;
-        transform: translateY(10px);
-    }
-    to{
-        background-position: 600% 0;
-    }
-}
-@-moz-keyframes cc {
-    from{
-        background-position: 0 0;
-        transform: translateY(10px);
-    }
-    to{
-        background-position: 600% 0;
-    }
-}
-@keyframes cc {
-    0%{
-        background-position: 0 0;
-    }
-    100%{
-        background-position: 600% 0;
-    }
-}
-
-@keyframes da {
-    0%{
-        background-position: 0 0;
-    }
-    100%{
-        background-position: 0 600%;
-    }
-}
-@-webkit-keyframes da {
-    0%{
-        background-position: 0 0;
-    }
-    100%{
-        background-position: 0 600%;
-    }
-}
-@-moz-keyframes da {
-    0%{
-        background-position: 0 0;
-    }
-    100%{
-        background-position: 0 600%;
-    }
-}
-@-ms-keyframes da {
-    0%{
-        background-position: 0 0;
-    }
-    100%{
-        background-position: 0 600%]]></content>
+        <updated>2020-07-02T17:04:28.000Z</updated>
+        <content type="html"><![CDATA[<p>猫哥困了，各位群友们晚安，早点睡，不要熬夜打飞机哟，那样子猫猫就不喜欢了，总之猫猫是爱你们的😘😘好了，天不早了，安~</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[拇指姑娘]]></title>
